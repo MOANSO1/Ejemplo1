@@ -21,6 +21,7 @@ int main()
 	burbuja(elementos, n);
 
 	cout << "\nELEMENTOS ORDENADOS: " << endl;
+	//d
 	imprimir(elementos, n);
 	cout << endl;
 	system("pause");
