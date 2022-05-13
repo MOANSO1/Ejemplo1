@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Burbuja.cpp" />
     <ClCompile Include="BusquedaCuaternaria.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
