@@ -25,19 +25,5 @@ int main()
 	cout << endl;
 	system("pause");
 
-	system("cls");
-	cout << "\nBUSQUEDA CUATERNARIA" << endl << endl;
-	cout << "INGRESE UN ELEMENTO A BUSCAR: "; cin >> b;
-
-	posicionB = busquedaCuaternaria(elementos, 0, n - 1, b);
-	if (posicionB == -1)
-		cout << "\a No se encontro el elemento buscado." << endl;
-	else {
-		cout << "\nEl elemento buscado esta en la posicion: " << posicionB + 1 << endl;
-	}
-
-	delete[] elementos;
-	system("pause");
-
 	return 0;
 }
